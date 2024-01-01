@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trade Tax Calculator</title>
+</head>
+<body>
+    <h1>Gewerbesteuer Calculator</h1>
+    <label for="profit">Enter Your Profit (€):</label>
+    <input type="number" id="profit" name="profit">
+    
+    <label for="city">Select Your City:</label>
+    <select id="city" name="city">
+        <option value="Berlin">Berlin</option>
+        <option value="Munich">Munich (München)</option>
+        <option value="Hamburg">Hamburg</option>
+        <option value="Frankfurt">Frankfurt</option>
+        <option value="Cologne">Cologne (Köln)</option>
+    </select>
+    
+    <button onclick="calculateTax()">Calculate</button>
+    <h2 id="result"></h2>
+    <script src="calculator.js"></script>
+</body>
+</html>
+
